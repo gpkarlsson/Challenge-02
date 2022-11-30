@@ -2,11 +2,15 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-nav {
+.navbar {
     display: flex;
-    display: inline;
-    justify-content: end;
+    justify-content: right;
 }
-.grid-item {
+div.grid-item {
     display: grid;
+    grid-template-columns: 100px 100px 100px;
+}
+
+body {
+    justify-content: center;
 }

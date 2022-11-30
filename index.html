@@ -8,30 +8,44 @@
 </head>
 <body>
     <header>
-        <nav>
+        <nav id="navbar">
           <ul>
+            <li><a href="#">About Me</a></li>
             <li><a href="https://github.com/gpkarlsson">Github</a></li>
-            <li><a href="#">My work</a></li>
+            <li><a href="#mywork">My work</a></li>
+            <li><a href="#contactme">Contact Me</a></li>
+            <li><a href="#">Resume</a></li>
           </ul>  
         </nav>
     </header>
+   
     <main>
         <section>
             <h2>About Me</h2>
+            <p>My name is Gordon Karlsson, I am a web developer.</p>
         </section>
+        
+        <aside id="sidebar">
+            <h2 id="mywork">work</h2>
+        </aside>
 
         <h2>Work</h2>
         <section>
-            <div class="grid-item">1</div>
-            <div class="grid-item">2</div>
-            <div class="grid-item">3</div>
-            <div class="grid-item">4</div>
-            <div class="grid-item">5</div>
+        <div class="wrapper">
+            <div class="grid-item"><a href="#">1</a></div>
+            <div class="grid-item"><a href="#">2</a></div>
+            <div class="grid-item"><a href="#">3</a></div>
+            <div class="grid-item"><a href="#">4</a></div>
+            <div class="grid-item"><a href="#">5</a></div>
+        </div>
         </section>
-
     </main>
 </body>
 <footer>
 <h2>Contact me</h2>
+    <ul id="contactme">
+        <li>608-445-5731</li>
+        <li></li>
+    </ul>
 </footer>
 </html>
