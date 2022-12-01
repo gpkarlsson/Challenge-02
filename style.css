@@ -9,13 +9,32 @@
 body {
     color: white;
     background-color: rgb(49, 47, 47);
+    /* background-image: url("tiedye1.jpg"); */
 }
-.navbar {
+
+aside {
+    display: flex;
+    flex: 30%;
+    background-color: gray;
+    padding: 20px;
+    width: 10%;
+    align-content:flex-start
+  }
+
+/* .navbar {
     background-color: blue;
     display: flex;
     text-decoration-style: none;
     text-decoration: none;
     justify-content: space-between;
+} */
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: gray;
+    height: 100px;
+    align-items: center;
 }
 
 li {
@@ -43,10 +62,9 @@ nav li a {
     justify-content: center;
 }
 
-.grid-container :hover{
-    border: blue 20px;
-
-    
+.grid-container :hover {
+    transition: 0.2s;
+    border: 5px solid blue;
 }
 
 .grid-item {
@@ -54,6 +72,7 @@ nav li a {
     border-style: solid;
     border-color: black;
     background-color: skyblue;
+    height: 200px;
 }
 
 .grid-item-1 {
@@ -61,6 +80,14 @@ nav li a {
  /* grid-column-start: 1;
  grid-column-end: 3; */
 grid-column: 1 / -1;
+background-image: url("tiedye1.jpg");
+height: 300px;
+}
+
+.grid-item a {
+    font-size: 30px;
+    background-color: aqua;
+    text-decoration: none;
 }
 
 .grid-item-2 {
@@ -79,7 +106,6 @@ grid-column: 1 / -1;
     background-color: gray;
     height: 100px;
     align-items: center;
-    color: white;
 }
 .contact {  
     font-size: 20px;
@@ -93,3 +119,10 @@ grid-column: 1 / -1;
     display: flex;
     justify-content: flex-start;
 }
+
+/* @media screen and (max-width:900px) {
+    .grid-container {
+        display: grid;
+        grid-auto-columns: 1;
+    }  
+} */
