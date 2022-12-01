@@ -50,6 +50,8 @@ nav li a {
     padding: 20px;
 }
 
+
+
 .grid-container {
     display: grid;
     grid-template-columns: 500px 500px 500px;
@@ -120,9 +122,40 @@ height: 300px;
     justify-content: flex-start;
 }
 
-/* @media screen and (max-width:900px) {
-    .grid-container {
-        display: grid;
-        grid-auto-columns: 1;
-    }  
+@media screen and (max-width:900px) {
+    .navbar, .navbar ul li {
+        display: block;
+        background-color: black;
+        justify-content: center;
+        }
+    } 
+
+@media screen and (max-width:1000px) {
+    .contactme ul li {
+        display: block;
+        background-color: black;
+        justify-content: center;
+        }
+    } 
+        
+    
+@media screen and (min-width:1000px) {
+    nav li a:hover {
+        background-color:black;
+        transition: 0.2s;
+        }
+    }
+
+/* @media screen and (max-width:200px) {
+ body {
+    display: grid;
+    grid-column-start: 1 / 1;
+ }   
 } */
+
+@media screen and (max-width: 1000px) { 
+    .grid-container, .grid-item {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
