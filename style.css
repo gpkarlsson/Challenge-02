@@ -33,17 +33,20 @@ nav li a {
 
 .grid-container {
     display: grid;
-    grid-template-columns: 200px 200px 200px;
+    grid-template-columns: 500px 500px 500px;
     grid-auto-rows: minmax(150px, auto);
     grid-gap: 20px;
     /* grid-template-areas: 
     "header header"
     "sidebar content"
     "sidebar content" */
+    justify-content: center;
 }
 
-.grid-container :hover {
+.grid-container :hover{
     border: blue 20px;
+
+    
 }
 
 .grid-item {
@@ -67,5 +70,26 @@ grid-column: 1 / -1;
     grid-row-end: 5;
 }
 .grid-item-3 {
-    
+    grid-column-start: 1 / 2;
+}
+
+#contactme {
+    display: flex;
+    justify-content: space-around;
+    background-color: gray;
+    height: 100px;
+    align-items: center;
+    color: white;
+}
+.contact {  
+    font-size: 20px;
+}
+
+#contactme li a {
+    text-decoration: none;
+}
+
+#contacth2 {
+    display: flex;
+    justify-content: flex-start;
 }
