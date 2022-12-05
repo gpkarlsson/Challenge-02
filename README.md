@@ -6,5 +6,5 @@ This project was built so that all of my work is stored in one place. I used CSS
 ## License
 MIT License
 
-##Deployed Link
+## Deployed Link
 https://gpkarlsson.github.io/Challenge-02/
