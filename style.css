@@ -1,5 +1,7 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
 }
 
 #header {
@@ -117,6 +119,7 @@ nav li a {
     background-color: gray;
     height: 100px;
     align-items: center;
+    
 }
 
 #contactme li a {
@@ -131,7 +134,7 @@ nav li a {
 @media screen and (max-width:768px) {
     nav.navbar, .navbar ul li {
         display: flex;
-        display:block;
+        display: block;
         background-color: black;
         align-content: center;
         }
