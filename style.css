@@ -37,7 +37,7 @@ aside, #sidebar {
 .navbar {
     display: flex;
     justify-content: space-around;
-    background-color: gray;
+    background-image: linear-gradient(gray, black);
     height: 100px;
     align-items: center;
 }
@@ -71,7 +71,7 @@ nav li a {
 }
 
 .grid-item {
-    background-color: dodgerblue;
+    background-image: linear-gradient(blue, dodgerblue);
     color: white;
     padding: 1rem;
     
@@ -93,7 +93,7 @@ nav li a {
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 3;
-    background-image: url("tiedye1.jpg");
+    /* background-image: url("tiedye1.jpg"); */
   }
   
   .grid-item-3 {
@@ -116,7 +116,7 @@ nav li a {
 #contactme {
     display: flex;
     justify-content: space-around;
-    background-color: gray;
+    background-image: linear-gradient(gray, black);
     height: 100px;
     align-items: center;
     
@@ -124,7 +124,17 @@ nav li a {
 
 #contactme li a {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 30px;
+    color: white;
+}
+#contactme li a:hover {
+    background-color:black;
+    transition: 0.2s;
+}
+#photo {
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
 }
 
 @media (min-width: 100px) {
